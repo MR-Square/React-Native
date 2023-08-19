@@ -1,0 +1,27 @@
+What is React native
+1. Framework to develop Android and IOS App.
+2. Written in js with React.js.
+3. it will convert code to native apps.
+4. Current Stable version 0.70.
+5. INitial release date: 26 March 2015.
+
+Why learn React Native
+1. Make Android, IOS and many more platforms app.
+2. Height demand.
+3. Easy to learn and develop apps.
+4. If you know REact, you can easily learn RN.
+5. Mainted by Facebook so this is a long term player.
+
+
+Main Topics of Course
+1. Setup and install React Native.
+2. React Native basics.
+3. Components.
+4. Hooks and Lifecycle.
+5. Navigation.
+6. Handle List.
+7. Form handling.
+8. Rest APIs.
+9. Redux.
+10.Project
+11.Interview Questions
