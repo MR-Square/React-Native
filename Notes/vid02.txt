@@ -1,0 +1,27 @@
+React Native Setup in Windows:
+1. We will follow official docs for RN Setup.
+2. Install choco, node and jdk.
+3. Install Android studio.
+4. Download SDK and emulator.
+5. Add environment variables.
+6. Create RN app.
+7. Run app
+
+1.
+* Go to official website: reactnative.dev
+* Click on get started button.
+* Scroll down and click on "React Native CLI Quickstart"
+* Scroll down and click on "Chocolatey".
+* Click on "Get Started".
+* Go to install section and copy the command:
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+* Now come back to official docs and copy the command:
+    choco install -y nodejs-lts microsoft-openjdk11
+* Come back to official docs and go to "Install Android Studio" section. Click on given link.
+* Now If you previously installed a global react-native-cli package, please remove it using the following command.
+    npm uninstall -g react-native-cli @react-native-community/cli
+* You are able to create a RN app now. You can use the following command.
+    npx react-native@latest init ProojectName
+* To start (run) your application, run the following command.
+    npm run android
+
