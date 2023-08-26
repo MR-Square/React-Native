@@ -1,0 +1,15 @@
+React Native app file structure
+
+1. Important  files for Beginners.
+2. Explain files and folder.
+3. Interview Question.
+
+
+* Important Files:
+1. package.json (It holds information related to application)
+2. metro.config.js (It holds information related to dependencies of application)
+3. babel.config.js
+4. index.js  (entry point for js)
+5. App.js/App.tsx (it is first component of application)
+6. .eslintrc.js ()
+7. ios & android folders.
