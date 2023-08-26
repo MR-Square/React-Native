@@ -1,0 +1,39 @@
+Basic of View, Text and Button UI
+
+In this vid we will see
+1. Understand app.js code.
+2. Example of View, Text and Button.
+3. Interview Question.
+
+
+
+2. Example of View, Text and Button:
+* To use View component we have to import it from RN.
+    import {View} from 'react-native';
+
+* You can use it like this:
+    <View>
+      // Your code will be here.
+    </View>
+
+* Similarly you can import and use Text and Button components as well.
+    import {Text,Button} from 'react-native';
+    <View>
+      <Text style={{fontSize:20,textAlign:'center',marginTop:250}}>Hello World!</Text>
+      <Button title='Press Here' ></Button>
+    </View>
+
+
+
+3. Interview Questions:
+* What is the difference between "Html Tag" and "React Native Component"?
+    Html Tag starts with "small latter"
+    RN Component starts with "Capital Latter"
+
+* Can we directly add any string inside the "View component"?
+    No we can't. If we want to add a string inside the View component, then we need
+    to use "Text component".
+
+* Can we return multiple "Text component" or any components at directly?
+    No we can't. We have to wrap them all inside a single component, then only we will 
+    be able to return them.
