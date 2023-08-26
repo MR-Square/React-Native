@@ -1,0 +1,12 @@
+video Content: Make First Program
+1. How to start App.
+2. Will Make our first change in app.
+3. Will keep simplest code only.
+4. Some interview questions.
+
+{
+    NOTE: 
+    In previous vid we saw how to create RN app.
+    To create RN app run the following command.
+    cmd: npx react-native@latest init ProojectName
+}
