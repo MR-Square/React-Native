@@ -1,0 +1,8 @@
+Button and onPress event
+
+In this vid:
+1. How to make a button.
+2. Change the color of the button.
+3. call function on button press.
+4. pass data to function from event.
+5. Interview questions.
