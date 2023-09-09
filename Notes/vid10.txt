@@ -1,0 +1,11 @@
+State in React Native
+
+In this vid:
+1. What is the state?
+2. Example of state.
+3. How to update state?
+4. Difference between state and variable.
+5. Interview questions.
+
+
+We can not SHARE state data, but we can share props data between components.
