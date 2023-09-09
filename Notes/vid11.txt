@@ -1,0 +1,14 @@
+Props in React Native
+
+In this vid:
+1. What are the props?
+2. Example of props.
+3. Difference between props and state.
+4. interview questions.
+
+
+1. Can we bring the data from child to parent?
+    Yes, we can. We will see it in upcoming video.
+
+2. Can we send a state from one state to another state?
+    No, we can't.
