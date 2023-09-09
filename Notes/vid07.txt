@@ -1,0 +1,12 @@
+JSX (Power House of RN)
+
+In this vid we will see:
+1. What is JSX.
+2. Example of JSX.
+3. Interesting fact about JSX.
+4. Interview Question.
+
+
+1. What is JSX?
+* It is a shortform of JavaScript extension.
+* It allows us to write HTML inside the Js.

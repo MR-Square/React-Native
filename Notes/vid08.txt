@@ -1,0 +1,16 @@
+Components in React Native:
+
+Component:
+* Independent and reusable code such as function.
+
+Types of Components:
+* Functional Component.
+* Class-based Component.
+
+What are the difference between normal import,export and export default?
+
+
+2.
+Can we make a nested Component?
+    Yes, we can make a nested Component also.
+    We can call a component inside an another component.
