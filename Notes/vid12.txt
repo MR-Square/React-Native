@@ -30,4 +30,7 @@ External Styling:
 * For more details you can refer 'styles/style.js'
 
 
-How can we
+How can we add multiple classes?
+* To add multiple classes use list.
+* e.g: we want to use sty.textBox, ExternalStyle.textBox and {fontSize:20} for text widget.
+* <Text style={[sty.textBox, ExternalStyle.textBox, {fontSize:20}]}>Multi Styling</Text>
