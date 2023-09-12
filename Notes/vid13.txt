@@ -1,0 +1,23 @@
+Get Text Input Value (Handling Text Input)
+
+
+In this vid:
+1. Make text input and define the state.
+2. Apply style in text input.
+3. Get text input value on change.
+4. Clear text input value.
+5. Interview Questions.
+
+
+How can we take text input from user?
+* To take input from user we use "<TextInput/>" widget.
+* In that widget we use placeholder attribute.
+* You can refer "VidThirteen" component.
+
+
+How can we set input value to a state?
+* To set the input value as a state value we can use "onChangeText" attribute.
+
+
+How can we apply validation on a input value?
+* We will see this in upcoming video.
