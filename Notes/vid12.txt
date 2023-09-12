@@ -1,0 +1,33 @@
+Basic Style in RN
+
+In this vid:
+1. Style type in RN.
+2. Inline style.
+3. Internal style.
+4. External style.
+5. Basic but important style properties.
+6. interview questions.
+
+
+Inline Styling:
+* It is same as styling in html.
+* We add style attribute in opening tag.
+* style = {{}}
+
+
+Internal Styling:
+* To use internal styling we import "StyleSheet" from 'react-native'.
+* Then we create an object by using StyleSheet.create()
+* For more details you can refer internal styling in "VidTwelve" component.
+
+
+External Styling:
+* We can create a folder inside our src folder to store our styling files.
+* Then we can create styling file along with .js as its extension.
+* e.g: style.js 
+* Then same as internal styling we will import and create objects.
+* Don't forget to export the object.
+* For more details you can refer 'styles/style.js'
+
+
+How can we
