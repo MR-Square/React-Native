@@ -24,4 +24,12 @@ React Native Setup in Windows:
     npx react-native@latest init ProojectName
 * To start (run) your application, run the following command.
     npm run android
-
+* If you want to run you react native app in your physical device then follow the below steps:
+   Enable Debuggin over USB in your device.
+   Plug in your device via USB
+   Now check that your device is properly connecting to ADB(Android Debug Bridge) by running
+        * adb devices
+   (Seeing device in the right column means the device is connected. You must have only one device connected at a time.)
+   Run your app:
+        * npm run android
+   
