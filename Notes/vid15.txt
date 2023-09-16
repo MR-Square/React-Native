@@ -1,0 +1,16 @@
+List with FlatList
+
+In this vid:
+1. Make an array of users.
+2. Use FlatList to create list.
+3. Apply style of List.
+4. Interview questions.
+
+
+* How can we create a list in RN?
+    To create a list in RN we use "FlatList" widget.
+
+* Some important attributes of FlatList widget:
+    * data  : An array (or array-like list) of items to render.
+    * renderItem    : Takes an item from data and renders it into the list.
+    * keyExtractor  : Used to extract a unique key for a given item at the specified index.
