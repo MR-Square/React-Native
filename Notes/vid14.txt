@@ -1,0 +1,22 @@
+Simple Form in React Native
+
+In this vid:
+1. Make text input and button.
+2. Make State for each text input.
+3. Get text inputs value in states.
+4. Print values on button click.
+5. Interview questions.
+
+
+* How can we take password as a input?
+    To take password as input we simply use one attribute
+    secureTextEntry = {true}
+
+
+* Can we use Ternary Operator in RN?
+    Yes we can use it.
+    Syntax: expression ? ifTrue : ifFalse
+
+
+* Can we apply inline styling on button?
+    No, we can't.
