@@ -1,0 +1,10 @@
+Component in loop with FlatList
+
+In this vid:
+1. Make list with FlatList and array.
+2. Apply style.
+3. Make component.
+4. Use component inside the list.
+
+* Can we use multiple components inside the list?
+    Yes, we can use as many components as we want.
