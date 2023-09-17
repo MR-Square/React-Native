@@ -1,0 +1,32 @@
+Make Dynamic Grid
+
+In this vid:
+1. Add text item from static grid.
+2. Add style to make the grid.
+3. Make dynamic grid.
+
+* How can we create a grid?
+    To create a grid layout, we use flex property.
+
+* Explain flex property.
+    If you want to use flex property you can use it by using "flex" property.
+    e.g: flex:1
+    here 1 means flex item will get the entire space.
+    flexDirection:'row',
+    flexWrap:'wrap',
+    justifyContent:'center',
+    alignItems:'center'
+
+* Explain "flex" property in detail.
+    it accepts int value.
+    flex: 1 means item will take entire space.
+    let's take an example:
+    <View>
+      <View style={{flex: 1, backgroundColor: 'red'}} />
+      <View style={{flex: 2, backgroundColor: 'darkorange'}} />
+      <View style={{flex: 3, backgroundColor: 'green'}} />
+    </View>
+    1 + 2 + 3 = 6
+    In the above example first view(with backgroundColor as red) will take 1/6 of the space.
+    darkorange view will take 2/6 of the space.
+    green view will take 3/6 of the space.
