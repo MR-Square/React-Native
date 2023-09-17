@@ -1,4 +1,4 @@
-import {FlatList, Text,View} from 'react-native'
+import {FlatList, Text,View,StyleSheet} from 'react-native'
 
 function VidFiteen() {
     const users = [
@@ -21,14 +21,28 @@ function VidFiteen() {
     ]
     return(
         <View>
-            <Text>hellow</Text>
+            <Text style={styles.heading}>hellow</Text>
             <FlatList
                 data={users}
-                renderItem={({item}) => <Text>{item.name}</Text>}
+                renderItem={({item}) => <Text style={styles.listItem}>{item.name}</Text>}
                 keyExtractor={item => item.id}
+
             />
         </View>
     )
 }
 
+const styles = StyleSheet.create({
+    heading:{
+        fontSize:30,
+        textAlign:'center'
+    },
+    listItem:{
+        fontSize:24,
+        padding:10,
+        backgroundColor:'lightblue',
+        margin:10,
+        borderRadius:5
+    }
+})
 export default VidFiteen;

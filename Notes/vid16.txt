@@ -1,0 +1,27 @@
+List with map function(Custom)
+
+In this vid:
+1. Make an array of users.
+2. Use map function to create list.
+3. Apply style of list.
+4. Need scroll view to scroll list.
+
+
+* Why we use map function instead of using for/while loop?
+    map function is able to return someting when it runs
+    whereas for/while loops can not return anything.
+    Therefore we use map function instead of them.
+
+* Is list created by without using FlatList scrollable?
+    No, it is not scrollable by default.
+    We can make it scrollable by using "ScrollView" widget.
+
+* How can use ScrollView widget?
+    First we need to import it from reat-native.
+    Then we have to write our list inside the ScrollView widget.
+    Then our list will be scrollable.
+
+* Which option is better: "List with map" or "List with FlatList"?
+    If you have very less no of items(40-50) in your list, then both options are better.
+    If you have a lots of items in your list, then second option is better.
+    FlatList provides a lot of feature as well.

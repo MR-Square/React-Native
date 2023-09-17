@@ -4,4 +4,4 @@ Course Link: https://www.youtube.com/watch?v=z1qG80Jkzi8&list=PL8p2I9GklV468O2wk
 
 
 This Repo contains notes and all till vid no:
-15
+16
