@@ -1,0 +1,17 @@
+Section List in RN
+
+In this vid:
+1. Make section dat with array.
+2. Use section list.
+3. Render item and header.
+
+
+1. Can we take any another key name instead of "data" for nested array?
+    No, if we want to use nested array inside an array then we have to 
+    use "data" as key.
+
+2. Why do we use section list?
+    When we need to create a nested list, so we use section list.
+
+3. Can we ceate a nested list using flat list / custom list?
+    yes, but section list gives us by default this feature.
